@@ -1,0 +1,11 @@
+Create project:
+mvn archetype:generate -DgroupId=org.j2eedev.calc -DartifactId=Calculation -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+goto directory:
+cd Calculation
+
+build:
+mvn package
+
+run:
+java -cp target\Calculation-1.0-SNAPSHOT.jar org.j2eedev.calc.App
